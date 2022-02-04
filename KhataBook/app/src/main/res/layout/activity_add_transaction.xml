@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".AddTransaction">
+
+    <EditText
+        android:id="@+id/datee"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:hint="Date"
+        android:focusable="false"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/customernm"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:hint="Enter Customer Name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/customermobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:hint="Enter Customer Mobile No"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+
+    <RadioGroup
+        android:id="@+id/rbrngrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation='horizontal'>
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOU GAVE"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="YOU GOT"
+            android:textColor="@color/green"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="Add Transaction" />
+
+
+</LinearLayout>

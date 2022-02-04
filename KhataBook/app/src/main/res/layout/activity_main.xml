@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cdtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/orange"
+        app:title="Business Book"
+        app:titleTextColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/fregmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_below="@id/cdtoolbar" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:elevation="10dp"
+        app:itemIconSize="30dp"
+        app:itemRippleColor="@color/purple_500"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_manu">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

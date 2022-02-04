@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/addperson.xml" value="0.2703125" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/bankk.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/cardd.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/collect.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/getr.xml" value="0.2462962962962963" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/gold.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/item_selector.xml" value="0.2703125" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/morei.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/msend.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/qrr.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/rmoney.xml" value="0.26615384615384613" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/drawable/text_border.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/activity_add_transaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/activity_spleshscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/activity_sub_transaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/fragment_money.xml" value="0.22962962962962963" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/fragment_more.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/layout/lyout_rv.xml" value="0.3744075829383886" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/menu/bottom_manu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/menu/top_manu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyAndroid/KhataBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/atul/Android28/kb/KhataBook/app/src/main/res/drawable/getr.xml" value="0.18020833333333333" />
+        <entry key="..\:/atul/Android28/kb/KhataBook/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/atul/Android28/kb/KhataBook/app/src/main/res/layout/fragment_home.xml" value="0.1640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
