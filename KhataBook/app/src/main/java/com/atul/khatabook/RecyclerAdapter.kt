@@ -11,7 +11,7 @@ import com.atul.khatabook.fragments.HomeFragment
 class RecyclerAdapter(mCtx: HomeFragment, val customers: ArrayList<Customer> ) : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
     val mCtx = mCtx
 
-    private lateinit var mListener: onItemClickListener
+    /*private lateinit var mListener: onItemClickListener
 
     interface onItemClickListener{
         fun onItemClick(position: Int)
@@ -19,11 +19,11 @@ class RecyclerAdapter(mCtx: HomeFragment, val customers: ArrayList<Customer> ) :
 
     fun setonItemClickListener(listener: onItemClickListener){
         mListener = listener
-    }
+    }*/
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerAdapter.ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.lyout_rv, parent, false)
-        return ViewHolder(v,mListener)
+        return ViewHolder(v)
     }
 
     override fun onBindViewHolder(holder: RecyclerAdapter.ViewHolder, position: Int) {
@@ -40,7 +40,7 @@ class RecyclerAdapter(mCtx: HomeFragment, val customers: ArrayList<Customer> ) :
         return customers.size
     }
 
-    class ViewHolder(itemView: View, listener: onItemClickListener) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         var itemImage: ImageView
         var itemName: TextView
@@ -54,7 +54,7 @@ class RecyclerAdapter(mCtx: HomeFragment, val customers: ArrayList<Customer> ) :
             itemAmnount = itemView.findViewById(R.id.amounts)
 
             itemView.setOnClickListener {
-                listener.onItemClick(adapterPosition)
+                //listener.onItemClick(adapterPosition)
             }
         }
     }

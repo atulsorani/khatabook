@@ -67,11 +67,11 @@ class HomeFragment : Fragment() {
              val adapter = RecyclerAdapter(this,customerlist)
              bind.recyclerview.layoutManager = layoutManager
              bind.recyclerview.adapter = adapter
-            adapter.setonItemClickListener(object : RecyclerAdapter.onItemClickListener{
+            /*adapter.setonItemClickListener(object : RecyclerAdapter.onItemClickListener{
                 override fun onItemClick(position: Int) {
                     Toast.makeText(getActivity(),"$position",Toast.LENGTH_SHORT).show();
                 }
-            })
+            })*/
 
         }
         viewAllCustomer()
